@@ -1,0 +1,71 @@
+:root {
+  --fs-small: 16px;
+  --fs-big: 20px;
+  --fw-bold: bold;
+  --fw-medium: 500;
+}
+
+.container {
+  max-width: 1384px;
+  margin: 0 auto;
+}
+.logo-wrapper {
+  text-align: center;
+}
+.title,
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: var(--fw-bold);
+}
+.data-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.personal-data {
+  grid-column: 3;
+}
+.information-wrapper {
+  margin-bottom: 16px;
+}
+.information {
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-small);
+}
+.benefits {
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-small);
+}
+.benefits-list {
+  margin-bottom: 10px;
+}
+.need-to-know {
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-small);
+  margin: 10px 0;
+}
+.need-to-know-text {
+  margin-bottom: 14px;
+}
+.rights {
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-small);
+  margin: 10px 0;
+}
+.rights-text {
+  margin: 10px 0;
+}
+.confirmation {
+  text-decoration: underline;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-small);
+}
+.signing {
+  margin-bottom: 10px;
+}
